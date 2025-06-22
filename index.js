@@ -46,7 +46,7 @@ app.post('/api/shorturl', (req, res) => {
       url_db.push({og_url, short_url});
 
       res.json({
-        orignal_url: og_url,
+        original_url: og_url,
         short_url: short_url
       });
     }); 
